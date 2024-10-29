@@ -1,0 +1,15 @@
+package com.example.messagingrabbitmq;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class MessagingRabbitmqApplication {
+
+	static final String topicExchangeName = "spring-boot-exchange";
+
+	public static void main(String[] args) {
+		SpringApplication.run(MessagingRabbitmqApplication.class, args);
+	}
+
+}
